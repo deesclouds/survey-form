@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title> Feedback Form</title>
+    </head>
+    <body>
+        <header>
+            <h1> Feedback Form</h1>
+            <p>We'd love to hear about your experience! Kindly take a moment to let us know how we can improve.</p>
+        </header>
+        <form>
+            <label>Your Name:</label>
+            <!-- First Name -->
+           <input type="text" id="fname" required="true" placeholder="First Name"><br>
+            <!-- Last Name:  -->
+            <input type="text" id="lname" required="true" placeholder="Last Name">
+            
+           <label> Your Email:</label>
+            <input type="email" id="email" required="true" placeholder="user@gmail.com">
+
+            <label>Birthday:</label>
+            <input type="date" id="birthday" required="true" placeholder="06-05-2022">
+
+            <label>How did you hear about us?</label>
+            <select id="dropdown">
+                <option value="1">Twitter</option>
+                <option value="2">GitHub</option>
+                <option value="3">LinkedIn</option>
+                <option value="4">Other</option>
+            </select>
+            <label>Which devices do you use mostly to access this webpage?</label>
+            <ul>
+               
+                <li> <input type="checkbox" name="" value="iphone">iPhone</li>
+                <li> <input type="checkbox" name="" value="mobile">Mobile [Android]</li>
+                <li> <input type="checkbox" name="" value="laptop">Laptop</li>
+                <li> <input type="checkbox" name="" value="desktop">Desktop</li>
+                <li> <input type="checkbox" name="" value="ipad">iPad</li>
+                <li> <input type="checkbox" name="" value="tablet">Tablet [Android]</li>
+                <li> <input type="checkbox" name="" value="other">Other</li>
+            </ul>
+
+            <label>What browser do you use mostly to access this webpage?</label>
+            <ul>
+               
+                <li> <input type="radio" name="browser" value="chrome">Google Chrome</li>
+                <li> <input type="radio" name="browser" value="safari">Safari</li>
+                <li> <input type="radio" name="browser" value="opera">Opera</li>
+                <li> <input type="radio" name="browser" value="tor">Tor</li>
+                <li> <input type="radio" name="browser" value="edge">Microsoft Edge</li>
+                <li> <input type="radio" name="browser" value="ecosia">Ecosia</li>
+                <li> <input type="radio" name="browser" value="o">Other</li>
+            </ul>
+
+            <label> How satisfied are you with the UI/UX of the site?</label>
+            <li><input type="radio">It's perfect</input></li>
+            <li><input type="radio">Room for improvement</input></li>
+            <li><input type="radio">It's alright does the job</input></li>
+            <li><input type="radio">Has a long way to go</input></li>
+            <li><input type="radio">Dumpster Fire</input></li>
+
+            <label>Additional Comments</label>
+            <textarea placeholder="You're site is off to a great start! What I love about it is .... but one thing that can be improved is ...."></textarea>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+        <footer>
+            <span>&copy; 2022. Created and Developed by deesclouds </span>
+        </footer>
+    </body>
+</html>
