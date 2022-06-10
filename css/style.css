@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", Helvetia, Georgia, sans-serif
+    
+}
+
+body{
+    background-image: url(../assets/pexels-magda-ehlers-2114014.jpg);
+    background-size: cover;
+    background-position: center 30%;
+    margin: 90px;
+    font-size: 62.5%;
+}
+
+header, div{
+    text-align:center;
+    font-size: 1rem;
+}
+
+
+div{
+    background-color: hsla(285, 92%, 85%, 0.824);
+    margin: auto;
+    width: 320px;
+    border: 5px dotted #f6f4af;
+}
+
+h1, p, input, #collab, #name-label, #email-label, #age-label{
+    margin: 10px ;
+    padding: 10px;
+}
+ul, li{
+    list-style: none;
+    text-align: left;
+    padding-left: 10px;
+}
+hr{
+    border: 1px double #f6f4af;
+    margin: 10px;
+}
+select, #dropdown, textarea{
+    text-align: center;
+    margin: 10px 0;
+}
+legend{
+    background-color: #FFAA97;
+}
+fieldset, legend{
+    border: 2px solid #f6f4af;
+}
+#radio{
+    background-color: purple;
+    border: 2px solid black;
+}
+
+#collab{
+    font-size: .8em;
+}
+
+#submit{
+    margin: 20px;
+}
+.age, .info{
+    height: 30px;
+}
+.info{
+    width: 150px;
+}
+.age{
+    width: 151px;
+}
