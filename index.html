@@ -19,54 +19,59 @@
                 <form method="get" id="survey-form">
                     <label id="name-label">Name: <input class="info" type="text" id="name" required placeholder="First and Last Name"></label>
 
-            <label id="email-label">Email: <input class="info" type="email" id="email" required placeholder="user@mail.com"></label>
+                    <label id="email-label">Email: <input class="info" type="email" id="email" required placeholder="user@mail.com"></label>
 
-            <label id="number-label">Age:  <input class="info age" type="number" id="number" name="age" min="13" max="120" required placeholder="Must be at least 13"></label>
+                    <label id="number-label">Age:  <input class="info age" type="number" id="number" name="age" min="13" max="120" required placeholder="Must be at least 13"></label>
         
-            <label id="pronouns">How should we refer to you?
-                <select id="dropdown">
-                    <option>(Pronouns)</option>
-                    <option>by name</option>
-                    <option>they/them/their</option>
-                    <option>she/her/hers</option>
-                    <option>he/him/his</option>
-                    <option>ze/zie/hir</option>
-                    <option>xe/xem/xyr</option>
-                    <option>per/per.pers</option>
-                    <option>e/ey/em/eir</option>
-                    <option>fae/faer/faers</option>
-                    <option>ae/aer/aers</option>
-                </select>
-            </label>
+                    <label id="pronouns">How should we refer to you?
+                        <select id="dropdown">
+                            <option>(Pronouns)</option>
+                            <option>by name</option>
+                            <option>they/them/their</option>
+                            <option>she/her/hers</option>
+                            <option>he/him/his</option>
+                            <option>ze/zie/hir</option>
+                            <option>xe/xem/xyr</option>
+                            <option>per/per.pers</option>
+                            <option>e/ey/em/eir</option>
+                            <option>fae/faer/faers</option>
+                            <option>ae/aer/aers</option>
+                        </select>
+                    </label>
         </fieldset>
-        <hr>
-            
-            <label id="collab">Would you like to collab on a future project?</label>
-            <input type="radio" name="Y">Yes
-            <input type="radio" name="N">No
-            <input type="radio" name="MB">Not Sure
-            
-            <hr>
-        <fieldset>
-                <legend>What type of project would you like to work on?</legend>
-                <ul>
-                <li><label for="api">APIs</label><input type="checkbox" name="projects" id="api" value="api"></li>
-                
-                <li><label for="front-end">Front-end Projects</label><input type="checkbox" name="projects" id="front-end"  value="front-end"></li>
-                
-                <li><label for="back-end">Back-end Projects</label><input type="checkbox" name="projects" id="back-end" value="back-end"></li>
-                
-                <li><label for="open-source">Open Source Projects</label><input type="checkbox" name="projects" id="open-source" value="open-source"></li>
-                
-                <li><label for="blogging">Blogging</label><input type="checkbox" name="projects" id="blogging" value="blogging"></li>
-                </ul>
-        </fieldset>
-            
-            <hr>
-            <fieldset id="comments"><legend>Additional comments or suggestions? </legend><textarea spellcheck="true" max="250" rows="10" cols="30" placeholder="I love your dreamy survey! One thing that would make it better would be ..."></textarea></fieldset>
+                    <hr>
+                        
+                        <label id="collab">Would you like to collab on a future project?</label>
+                        <input type="radio" name="Y">Yes
+                        <input type="radio" name="N">No
+                        <input type="radio" name="MB">Not Sure
+                        
+                    <hr>
 
-            <button id="submit">Submit</button>
-        </form>
+        <fieldset>
+                    <legend>What type of project would you like to work on?</legend>
+                    <ul>
+                    <li><label for="api">APIs</label><input type="checkbox" name="projects" id="api" value="api"></li>
+                    
+                    <li><label for="front-end">Front-end Projects</label><input type="checkbox" name="projects" id="front-end"  value="front-end"></li>
+                    
+                    <li><label for="back-end">Back-end Projects</label><input type="checkbox" name="projects" id="back-end" value="back-end"></li>
+                    
+                    <li><label for="open-source">Open Source Projects</label><input type="checkbox" name="projects" id="open-source" value="open-source"></li>
+                    
+                    <li><label for="blogging">Blogging</label><input type="checkbox" name="projects" id="blogging" value="blogging"></li>
+                    </ul>
+        </fieldset>
+            
+                    <hr>
+
+        <fieldset id="comments">
+                    <legend>Additional comments or suggestions? </legend>
+                    <textarea spellcheck="true" max="250" rows="10" cols="30" placeholder="I love your dreamy survey! One thing that would make it better would be ..."></textarea>
+        </fieldset>
+
+                    <button id="submit">Submit</button>
+                </form>
    
 </div>
 </body>
