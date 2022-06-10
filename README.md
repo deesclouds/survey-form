@@ -1,8 +1,9 @@
 # Survey Form
-Created this project to get feedback on projects that was pushed into production.
+A survey form for users to complete to help improve the platform to have it working in the best way for our users.
 
-**Link to project:** [link-to-site]
-![alt tag](link-to-screenshot)
+**Link to project:** 
+
+**Image of project**
 
 ## How It's Made:
 
