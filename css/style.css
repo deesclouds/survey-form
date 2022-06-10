@@ -60,12 +60,12 @@ fieldset, legend{
 #submit{
     margin: 20px;
 }
-.age, .info{
+.number, .info{
     height: 30px;
 }
 .info{
     width: 150px;
 }
-.age{
+.number{
     width: 151px;
 }
