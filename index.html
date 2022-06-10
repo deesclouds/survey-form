@@ -1,72 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css">
-        <title> Feedback Form</title>
-    </head>
-    <body>
-        <header>
-            <h1> Feedback Form</h1>
-            <p>We'd love to hear about your experience! Kindly take a moment to let us know how we can improve.</p>
-        </header>
-        <form>
-            <label>Your Name:</label>
-            <!-- First Name -->
-           <input type="text" id="fname" required="true" placeholder="First Name"><br>
-            <!-- Last Name:  -->
-            <input type="text" id="lname" required="true" placeholder="Last Name">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <div>
+    <header>
+        <h1 id="title">Survey Form by deesclouds</h1>
+        <p id="description">We appreciate you taking the time to help improve our platform.</p>
+    </header>
+    <fieldset><legend>User Info</legend>
+        
+    
+    
+       
+        <form action="" id="survey-form">
+            <label id="name-label">Name: <input class="info" type="text" id="name" required placeholder="First and Last Name"></label>
+
+            <label id="email-label">Email: <input class="info" type="text" id="email" required placeholder="user@mail.com"></label>
+
+            <label id="age-label">Age:  <input class="info age" type="number" id="age" name="age" min="13" max="120" required placeholder="Must be at least 13"></label>
+        
+            <label id="pronouns">How should we refer to you?
+                <select id="dropdown">
+                <option>(Pronouns)</option>
+                <option>by name</option>
+                <option>they/them/their</option>
+                <option>she/her/hers</option>
+                <option>he/him/his</option>
+                <option>ze/zie/hir</option>
+                <option>xe/xem/xyr</option>
+                <option>per/per.pers</option>
+                <option>e/ey/em/eir</option>
+                <option>fae/faer/faers</option>
+                <option>ae/aer/aers</option>
+            </select></label>
+        </fieldset>
+        <hr>
             
-           <label> Your Email:</label>
-            <input type="email" id="email" required="true" placeholder="user@gmail.com">
+            <label id="collab">Would you like to collab on a future project?</label>
+            <input type="radio" name="Y">Yes
+            <input type="radio" name="N">No
+            <input type="radio" name="MB">Not Sure
+            
+            <hr>
+            <fieldset>
+                <legend>What type of project would you like to work on?</legend>
+                <ul>
+                <li><input type="checkbox" name="projects" value="api">
+                <label for="APIs">APIs</label></li>
+                
+                <li><input type="checkbox" name="projects" value="front-end">
+                <label for="front-end">Front-end Projects</label></li>
+                
+                <li><input type="checkbox" name="projects" value="back-end">
+                <label for="back-end">Back-end Projects</label></li>
+                
+                <li><input type="checkbox" name="projects" value="open-source">
+                <label for="open-source">Open Source Projects</label></li>
+                
+                <li><input type="checkbox" name="projects" value="blogging">
+                <label for="blogging">Blogging</label></li>
+                </ul>
+            </fieldset>
+            
+            <hr>
+            <fieldset id="comments"><legend>Additional comments or suggestions?</legend><textarea style:"none;" spellcheck="true" max="250" rows="10" cols="30" placeholder="I love your dreamy survey! One thing that would make it better would be ..."></textarea></fieldset>
 
-            <label>Birthday:</label>
-            <input type="date" id="birthday" required="true" placeholder="06-05-2022">
-
-            <label>How did you hear about us?</label>
-            <select id="dropdown">
-                <option value="1">Twitter</option>
-                <option value="2">GitHub</option>
-                <option value="3">LinkedIn</option>
-                <option value="4">Other</option>
-            </select>
-            <label>Which devices do you use mostly to access this webpage?</label>
-            <ul>
-               
-                <li> <input type="checkbox" name="" value="iphone">iPhone</li>
-                <li> <input type="checkbox" name="" value="mobile">Mobile [Android]</li>
-                <li> <input type="checkbox" name="" value="laptop">Laptop</li>
-                <li> <input type="checkbox" name="" value="desktop">Desktop</li>
-                <li> <input type="checkbox" name="" value="ipad">iPad</li>
-                <li> <input type="checkbox" name="" value="tablet">Tablet [Android]</li>
-                <li> <input type="checkbox" name="" value="other">Other</li>
-            </ul>
-
-            <label>What browser do you use mostly to access this webpage?</label>
-            <ul>
-               
-                <li> <input type="radio" name="browser" value="chrome">Google Chrome</li>
-                <li> <input type="radio" name="browser" value="safari">Safari</li>
-                <li> <input type="radio" name="browser" value="opera">Opera</li>
-                <li> <input type="radio" name="browser" value="tor">Tor</li>
-                <li> <input type="radio" name="browser" value="edge">Microsoft Edge</li>
-                <li> <input type="radio" name="browser" value="ecosia">Ecosia</li>
-                <li> <input type="radio" name="browser" value="o">Other</li>
-            </ul>
-
-            <label> How satisfied are you with the UI/UX of the site?</label>
-            <li><input type="radio">It's perfect</input></li>
-            <li><input type="radio">Room for improvement</input></li>
-            <li><input type="radio">It's alright does the job</input></li>
-            <li><input type="radio">Has a long way to go</input></li>
-            <li><input type="radio">Dumpster Fire</input></li>
-
-            <label>Additional Comments</label>
-            <textarea placeholder="You're site is off to a great start! What I love about it is .... but one thing that can be improved is ...."></textarea>
-            <button type="submit" id="submit">Submit</button>
+            <button id="submit">Submit</button>
         </form>
-        <footer>
-            <span>&copy; 2022. Created and Developed by deesclouds </span>
-        </footer>
-    </body>
+   
+</div>
+</body>
 </html>
