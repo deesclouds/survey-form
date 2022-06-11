@@ -45,12 +45,12 @@ select, #dropdown, textarea{
     text-align: center;
     margin: 10px 0;
 }
-legend{
+
+.form-data, legend{
+    border: 2px solid #f6f4af;
     background-color: #FFAA97;
 }
-fieldset, legend{
-    border: 2px solid #f6f4af;
-}
+
 #radio{
     background-color: purple;
     border: 2px solid black;
