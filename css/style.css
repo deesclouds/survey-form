@@ -27,15 +27,16 @@ div{
     border: 5px dotted #f6f4af;
 }
 
-h1, p, input, #collab, #name-label, #email-label, #age-label{
+h1, p, input, #collab{
     margin: 10px ;
     padding: 10px;
 }
 ul, li{
     list-style: none;
-    text-align: left;
+    text-align: center;
     padding-left: 10px;
 }
+
 hr{
     border: 1px double #f6f4af;
     margin: 10px;
