@@ -1,5 +1,5 @@
 # Survey Form
-A survey form for users to complete to help improve the platform to have it working in the best way for our users.
+A survey form for users to fill out in order to help enhance the platform so that it works optimally for our users.
 
 ## How It's Made:
 
@@ -7,15 +7,16 @@ A survey form for users to complete to help improve the platform to have it work
 
 
 ## Optimizations
+I updated this survey form since my previous survey form's style did not provide customers with a nice experience while completing it.
 
-I rebuilt this survey form since my prior survey form's layout was not providing users a positive experience to complete them.  
 ## Lessons Learned:
 
-Since my prior survey form was not a positive experience for my users. I realized that I would practice building a survey from freecodecamp to make sure I was providing a better app for my users to receive feedback to improve future projects. 
+Because my previous survey form does not provide a great experience for my users. I decided to develop a survey from freecodecamp to ensure that I was giving a better user experience in the future, so that I could gather feedback and continue to improve on future projects.
 
 ## Project Objectives:
 
 Build a Survey Form
+
 Objective: Build an app that is functionally similar to https://survey-form.freecodecamp.rocks
 
 User Stories:
